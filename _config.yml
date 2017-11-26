@@ -1,10 +1,10 @@
 # Site settings
 title: Chowdown
-email: your-email@domain.com
+email: recipes@lane.sh
 description: The plain text recipe database for hackers
-#baseurl: "http://test.io"
-twitter_username: clarklab
-github_username:  clarklab
+#baseurl: "http://recipes.lane.sh"
+twitter_username: _seanlane
+github_username:  seanlane
 
 # Build settings
 markdown: kramdown
@@ -15,7 +15,7 @@ collections:
   recipes:
     output: true
 
-gems: ['jekyll-lunr-js-search']
+plugins: ['jekyll-lunr-js-search', 'jekyll-minimagick']
     
 mini_magick:
     thumbnail:

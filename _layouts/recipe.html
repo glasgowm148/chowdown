@@ -3,18 +3,18 @@ layout: default
 ---
 <div class="container" itemscope itemtype="http://schema.org/Recipe">
   
-<!-- call up the image and image credit link -->
+  <!-- call up the image and image credit link -->
   {% for image in page.image %}
-  <div class="xs-p2">
-    <img itemprop="photo" src="{{site.baseurl}}/images/large/{{ image }}" />
-    {% if page.imagecredit %}
-      {% for imagecredit in page.imagecredit %}
-        <a href="{{ imagecredit }}" class="right">
-          <svg class="js-geomicon geomicon" width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><title>camera icon</title><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
-        </a>
-      {% endfor %}
-    {% endif %}
-  </div>
+    <div class="xs-p2">
+      <img itemprop="photo" src="{{site.baseurl}}/images/large/{{ image }}" />
+      {% if page.imagecredit %}
+        {% for imagecredit in page.imagecredit %}
+          <a href="{{ imagecredit }}" class="right">
+            <svg class="js-geomicon geomicon" width="14" height="14" data-icon="camera" viewBox="0 0 32 32" style="fill:currentcolor"><title>camera icon</title><path d="M0 6 L8 6 L10 2 L22 2 L24 6 L32 6 L32 28 L0 28 z M9 17 A7 7 0 0 0 23 17 A7 7 0 0 0 9 17"></path></svg>
+          </a>
+        {% endfor %}
+      {% endif %}
+    </div>
   {% endfor %}
 
 <article class="post-content px2">
@@ -23,6 +23,13 @@ layout: default
   <header class="post-header">
     <h1 class="post-title center m1 sm-mt3" itemprop="name">{{ page.title }}</h1>
   </header>
+
+  {% if page.YouTubeID %}
+    <div class="xs-p2" style="text-align: center;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.YouTubeID }}?rel=0" frameborder="0"   allowfullscreen>
+      </iframe>
+    </div>
+  {% endif %}
 
   <div class="px2 mt3 clearfix">
     <div class="sm-col-8 center mx-auto">{{page.content}}</div>

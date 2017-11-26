@@ -3,6 +3,19 @@
 layout: recipe
 title:  "Red Berry Tart"
 image: red-berry-tart.jpg
+imagecredit: 
+dateAdded: 20170917
+YouTubeID: 
+
+authorName:
+authorURL: 
+sourceName:
+sourceURL:
+category: Dessert
+yield: 4
+prepTime: 
+cookTime: 
+
 
 directions:
 - Bake the crust and let it cool

@@ -1,5 +1,4 @@
 ---
-
 layout: recipe
 title:  "Sriracha Egg Salad"
 image: sriracha-egg-salad.jpg
@@ -38,5 +37,3 @@ directions:
 - Serve or refrigerate until ready to serve.
 
 ---
-
-This is a simple one, consisting of a pre-made soup mix and whatever you've got around the kitchen (or campsite). Feel free to sub/swap/switch anything in the ingredient list— anything's fair game!
