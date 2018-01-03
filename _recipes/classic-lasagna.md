@@ -16,6 +16,7 @@ cookTime: 60
 
 ingredients:
 - 2 lbs ground beef
+- 1 package of spicy Italian sausage
 - 1 medium onion chopped
 - 3 cloves garlic minced
 - 1 Tbsp olive oil
@@ -34,7 +35,7 @@ ingredients:
 directions:
 - Preheat oven to 350°F.
 - In a large pan, add olive oil, chopped onions and garlic. Saute for 3-4 minutes.
-- Add ground beef and cook until completely browned, drain fat. Return to pan.
+- Add ground beef and sausage, and cook until completely browned, drain fat. Return to pan.
 - Add tomato sauce, tomato paste, water, oregano, basil, salt and pepper.
 - Bring to a boil over medium heat, reduce heat to low, cover and cook for approximately 20-25 minutes, stirring occasionally.
 - Cook pasta according to package directions for al dente, rinse and set aside.
@@ -50,4 +51,4 @@ directions:
 - Serve with salad and garlic bread.
 ---
 
-You might need a bit more cottage or ricotta cheese, especially if splitting between smaller pans. Also, you will only get two levels deep if you don't have a really deep pan.
+You might need a bit more cottage or ricotta cheese, especially if splitting between smaller pans. Also, you will only get two levels deep if you don't have a really deep pan. Our contribution to this recipe comes from Ashley's mother, which is adding a package of spicy Italian sausage to give some additional flavor.
