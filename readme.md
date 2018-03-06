@@ -23,7 +23,7 @@ Go cook something rad,
 [3]:http://schema.org/Recipe
 [4]:http://twitter.com/_seanlane
 
-# Installing
+## Installing
 
 This project uses the bundler gem to install all the dependencies.
 
@@ -35,14 +35,14 @@ Inital setup (if needed):
 
 Then run `bundler install` to get all the dependencies.
 
-# Configuration
+## Configuration
 
 Modify the `_config.yml` file as needed. You'll probably just need to change  the `title`, `email`, `twitter_username`, and `github_username` fields to initially get going.
 
-# Add recipes
+## Add recipes
 
 Add recipes to the `_recipes` directory, using other recipe files as an example. Most of the fields are optional , though I'm not sure which ones will break the site if you don't add them. As long as it has at least a title, you're probably fine, though the recipe won't be very useful without ingredients or directions. To add an image, save the image you'd like to use in the `images/_original` directory, and then add the image filename to the `image` field in the recipe file. This tells the static site generator that you want to use that image for this recipe.
 
-# Deploying the website
+## Deploying the website
 
 I use the `Makefile` in this website to build the site, and then move the generated site files to a webhost. You can do something similar, if you have one, or you could also host the site for free on [GitHub Pages](https://pages.github.com). Good luck!
