@@ -29,7 +29,7 @@ This project uses the bundler gem to install all the dependencies.
 
 Inital setup (if needed):
 
-* [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/), 
+* [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 * [Install RubyGems](https://rubygems.org/pages/download)
 * Install bundler: `$ gem install bundler`
 
