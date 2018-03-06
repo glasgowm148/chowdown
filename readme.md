@@ -15,8 +15,8 @@ The magic comes behind-the-scenes, with [recipe microdata via schema.org][3]. Th
 **Chowdown** is definitely a work in progress. Active development is taking place. I'm new to Jekyll. Things might break. The recipes, however, are here to stay.
   
 Go cook something rad,  
-    Sean
-    [@\_seanlane][4]
+    Sean  
+    [@\_seanlane][4]  
 
 [1]:https://raw.githubusercontent.com/seanlane/chowdown/master/_recipes/pepperoncini-pork.md
 [2]:http://recipes.lane.sh/recipes/pepperoncini-pork.html
