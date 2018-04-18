@@ -45,4 +45,8 @@ Add recipes to the `_recipes` directory, using other recipe files as an example.
 
 ## Deploying the website
 
-I use the `Makefile` in this website to build the site, and then move the generated site files to a webhost. You can do something similar, if you have one, or you could also host the site for free on [GitHub Pages](https://pages.github.com). Good luck!
+~~I use the `Makefile` in this website to build the site, and then move the generated site files to a webhost. You can do something similar, if you have one, or you could also host the site for free on [GitHub Pages](https://pages.github.com).~~
+
+I've since moved the site to be hosted via [GitHub Pages](https://pages.github.com). Change the CNAME file to your domain, set the DNS records as described in the GitHub Pages documentation, and then enjoy.
+
+Good luck!
