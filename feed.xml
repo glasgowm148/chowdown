@@ -1,29 +1,133 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.recipes limit:10 %}
+    <title>Chowdown</title>
+    <description>The plain text recipe database for hackers</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 18 Apr 2018 13:13:04 -0600</pubDate>
+    <lastBuildDate>Wed, 18 Apr 2018 13:13:04 -0600</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>5 Cheese Mac N' Cheese</title>
+        <description>
+</description>
+        <link>/recipes/5-cheese-mac-n-cheese.html</link>
+        <guid isPermaLink="true">/recipes/5-cheese-mac-n-cheese.html</guid>
+        
+        
+        <category>Pasta</category>
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Arroz Chaufa</title>
+        <description>
+</description>
+        <link>/recipes/arroz-chaufa.html</link>
+        <guid isPermaLink="true">/recipes/arroz-chaufa.html</guid>
+        
+        
+        <category>Mission</category>
+        
+      </item>
+    
+      <item>
+        <title>Baked Sweet Chili Garlic Popcorn Chicken</title>
+        <description>
+</description>
+        <link>/recipes/baked-sweet-chili-garlic-popcorn-chicken.html</link>
+        <guid isPermaLink="true">/recipes/baked-sweet-chili-garlic-popcorn-chicken.html</guid>
+        
+        
+        <category>Asian</category>
+        
+      </item>
+    
+      <item>
+        <title>Bananas in Coconut Cream</title>
+        <description>
+</description>
+        <link>/recipes/bananas-in-coconut-cream.html</link>
+        <guid isPermaLink="true">/recipes/bananas-in-coconut-cream.html</guid>
+        
+        
+        <category>Dessert</category>
+        
+      </item>
+    
+      <item>
+        <title>Best Big, Fat, Chewy Chocolate Chip Cookie</title>
+        <description>
+</description>
+        <link>/recipes/best-big-fat-chewy-chocolate-chip-cookie.html</link>
+        <guid isPermaLink="true">/recipes/best-big-fat-chewy-chocolate-chip-cookie.html</guid>
+        
+        
+        <category>Dessert</category>
+        
+      </item>
+    
+      <item>
+        <title>Blondies</title>
+        <description>&lt;p&gt;I can’t remember where I found this recipe, it simply lives on from a notebook I kept from my mission. Good for parties an thing, since it goes a long way and is easier to prep than cookies.&lt;/p&gt;
+</description>
+        <link>/recipes/blondies.html</link>
+        <guid isPermaLink="true">/recipes/blondies.html</guid>
+        
+        
+        <category>Dessert</category>
+        
+      </item>
+    
+      <item>
+        <title>Chicken Fried Steak</title>
+        <description>&lt;p&gt;The original recipe is a bit fancier, but these changes seem to still give a tasty dinner. Also check out the source recipe for a homemade gravy recipe.&lt;/p&gt;
+</description>
+        <link>/recipes/chicken-fried-steak.html</link>
+        <guid isPermaLink="true">/recipes/chicken-fried-steak.html</guid>
+        
+        
+        <category>Beef</category>
+        
+      </item>
+    
+      <item>
+        <title>Chile Verde</title>
+        <description>
+</description>
+        <link>/recipes/chile-verde.html</link>
+        <guid isPermaLink="true">/recipes/chile-verde.html</guid>
+        
+        
+        <category>Mexican</category>
+        
+      </item>
+    
+      <item>
+        <title>Chimichurri</title>
+        <description>&lt;p&gt;&lt;em&gt;Additional Notes&lt;/em&gt;: I used dried oregano to save costs, but if you have fresh available 1-2 Tbsp fresh oregano leaves can be used in place of the dried.&lt;/p&gt;
+</description>
+        <link>/recipes/chimichurri.html</link>
+        <guid isPermaLink="true">/recipes/chimichurri.html</guid>
+        
+        
+        <category>Sauce</category>
+        
+      </item>
+    
+      <item>
+        <title>Classic Lasagna</title>
+        <description>&lt;p&gt;You might need a bit more cottage or ricotta cheese, especially if splitting between smaller pans. Also, you will only get two levels deep if you don’t have a really deep pan. Our contribution to this recipe comes from Ashley’s mother, which is adding a package of spicy Italian sausage to give some additional flavor.&lt;/p&gt;
+</description>
+        <link>/recipes/classic-lasagna.html</link>
+        <guid isPermaLink="true">/recipes/classic-lasagna.html</guid>
+        
+        
+        <category>Italian</category>
+        
+      </item>
+    
   </channel>
 </rss>

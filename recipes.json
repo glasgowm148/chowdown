@@ -1,11 +1,203 @@
----
-layout: null
----
-{% assign counter = 1 %}
-{% assign total = site.recipes | size %}
-[{% for post in site.recipes %}
+
+
+[
     {
-        "title": "{{ post.title }}",
-        "image": "images/large/{{ post.image }}"
-    }{% if counter == total %}{% else %},{% endif %}
-{% assign counter = counter |plus: 1 %}{% endfor %}]
+        "title": "5 Cheese Mac N' Cheese",
+        "image": "images/large/5-cheese-mac-n-cheese.jpg"
+    },
+
+    {
+        "title": "Arroz Chaufa",
+        "image": "images/large/arroz-chaufa.jpg"
+    },
+
+    {
+        "title": "Baked Sweet Chili Garlic Popcorn Chicken",
+        "image": "images/large/baked-sweet-chili-garlic-popcorn-chicken.jpg"
+    },
+
+    {
+        "title": "Bananas in Coconut Cream",
+        "image": "images/large/bananas-in-coconut-cream.jpg"
+    },
+
+    {
+        "title": "Best Big, Fat, Chewy Chocolate Chip Cookie",
+        "image": "images/large/best-big-fat-chewy-chocolate-chip-cookie.jpg"
+    },
+
+    {
+        "title": "Blondies",
+        "image": "images/large/blondies.png"
+    },
+
+    {
+        "title": "Chicken Fried Steak",
+        "image": "images/large/chicken-fried-steak.jpg"
+    },
+
+    {
+        "title": "Chile Verde",
+        "image": "images/large/chile-verde.png"
+    },
+
+    {
+        "title": "Chimichurri",
+        "image": "images/large/chimichurri.jpg"
+    },
+
+    {
+        "title": "Classic Lasagna",
+        "image": "images/large/classic-lasagna.jpg"
+    },
+
+    {
+        "title": "Creamy Garlic Parmesan Chicken",
+        "image": "images/large/creamy-garlic-parmesan-chicken.jpg"
+    },
+
+    {
+        "title": "Crock Pot Red Beans and Rice",
+        "image": "images/large/crock-pot-red-beans-and-rice.jpg"
+    },
+
+    {
+        "title": "Deep Fried Pizza 'Donuts'",
+        "image": "images/large/deep-fried-pizza-donuts.jpg"
+    },
+
+    {
+        "title": "Easy Crockpot Sriracha Honey Chicken Wings",
+        "image": "images/large/easy-crockpot-sriracha-honey-chicken-wings.jpg"
+    },
+
+    {
+        "title": "Easy Pancakes",
+        "image": "images/large/easy-pancakes.jpg"
+    },
+
+    {
+        "title": "Faux Jambalaya",
+        "image": "images/large/faux-jambalaya.jpg"
+    },
+
+    {
+        "title": "Fettuccini Alfredo with Grilled Chicken",
+        "image": "images/large/"
+    },
+
+    {
+        "title": "French Toast",
+        "image": "images/large/french-toast.jpg"
+    },
+
+    {
+        "title": "Garlic Aioli",
+        "image": "images/large/garlic-aioli.jpg"
+    },
+
+    {
+        "title": "Ginger Chicken with Garlic Noodles",
+        "image": "images/large/ginger-chicken-with-garlic-noodles.jpg"
+    },
+
+    {
+        "title": "Grilled Chicken and Avocado Street Tacos",
+        "image": "images/large/grilled-chicken-and-avocado-street-tacos.jpg"
+    },
+
+    {
+        "title": "Healthy Roasted Chicken & Vegtables",
+        "image": "images/large/healthy-roasted-chicken-and-vegetables.jpg"
+    },
+
+    {
+        "title": "Homemade Hummus and Pita Chips",
+        "image": "images/large/hummus-and-chips.jpg"
+    },
+
+    {
+        "title": "Kielbasa and Cabbage",
+        "image": "images/large/kielbasa-and-cabbage.jpg"
+    },
+
+    {
+        "title": "Lemon Garlic Asparagus Pasta",
+        "image": "images/large/lemon-garlic-asparagus-pasta.jpg"
+    },
+
+    {
+        "title": "Mashed Potatoes",
+        "image": "images/large/mashed-potatoes.jpg"
+    },
+
+    {
+        "title": "Mmm Mmm Better Brownies",
+        "image": "images/large/mmm-mmm-better-brownies.jpg"
+    },
+
+    {
+        "title": "Mutti's Chicken & Gravy",
+        "image": "images/large/"
+    },
+
+    {
+        "title": "Pepperonchini Pork",
+        "image": "images/large/pepperoncini-pork.png"
+    },
+
+    {
+        "title": "Quick and Easy Feijoada",
+        "image": "images/large/quick-and-easy-feijoada.jpg"
+    },
+
+    {
+        "title": "Ranch Chicken Rollups",
+        "image": "images/large/ranch-chicken-rollups.jpg"
+    },
+
+    {
+        "title": "Red Berry Tart",
+        "image": "images/large/red-berry-tart.jpg"
+    },
+
+    {
+        "title": "Skillet Pineapple BBQ Chicken",
+        "image": "images/large/skillet-pineapple-bbq-chicken.jpg"
+    },
+
+    {
+        "title": "Slow Cooker Black Beans",
+        "image": "images/large/slow-cooker-black-beans.jpg"
+    },
+
+    {
+        "title": "Slow Cooker Tikka Masala",
+        "image": "images/large/slow-cooker-tikka-masala.jpg"
+    },
+
+    {
+        "title": "Spaghetti Sauce",
+        "image": "images/large/spaghetti.jpg"
+    },
+
+    {
+        "title": "Sriracha Buttered Shrimp",
+        "image": "images/large/sriracha-buttered-shrimp.jpg"
+    },
+
+    {
+        "title": "Sriracha Egg Salad",
+        "image": "images/large/sriracha-egg-salad.jpg"
+    },
+
+    {
+        "title": "Sugar Baby Porkchops",
+        "image": "images/large/"
+    },
+
+    {
+        "title": "Thai Chicken",
+        "image": "images/large/thai-chicken.jpg"
+    }
+]
