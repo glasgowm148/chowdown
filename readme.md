@@ -51,6 +51,8 @@ I've since moved the site to be hosted via [GitHub Pages](https://pages.github.c
 
 ## Deploying the website on your own web server with systemd
 
+EDIT: Further instructions on installing this to run on Ubuntu 18.04 can be found on the following page: [Instructions for setting up on Ubuntu 18.04](https://github.com/seanlane/chowdown/blob/master/setup-ubuntu18.04.md)
+
 This section was provided by Josh at linuxhelp.sytes.net, who is hosting an instance of this project on private webserver.
 
 **NOTE:** _All instructions are written for and have been tested on only an Ubuntu 16.04 server. They may or may not work on other linux distributions._
