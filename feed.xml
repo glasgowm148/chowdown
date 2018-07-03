@@ -5,8 +5,8 @@
     <description>The plain text recipe database for hackers</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 08 May 2018 10:51:18 -0600</pubDate>
-    <lastBuildDate>Tue, 08 May 2018 10:51:18 -0600</lastBuildDate>
+    <pubDate>Mon, 02 Jul 2018 20:02:18 -0600</pubDate>
+    <lastBuildDate>Mon, 02 Jul 2018 20:02:18 -0600</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -54,6 +54,18 @@
         
         
         <category>Dessert</category>
+        
+      </item>
+    
+      <item>
+        <title>Belgian Waffles</title>
+        <description>&lt;p&gt;These came out pretty good. Depending on how well your waffle iron nonstick coating works, you may not need to oil the iron.&lt;/p&gt;
+</description>
+        <link>/recipes/belgian-waffles.html</link>
+        <guid isPermaLink="true">/recipes/belgian-waffles.html</guid>
+        
+        <category>Breakfast</category>
+        
         
       </item>
     
@@ -114,18 +126,6 @@
         
         
         <category>Sauce</category>
-        
-      </item>
-    
-      <item>
-        <title>Classic Lasagna</title>
-        <description>&lt;p&gt;You might need a bit more cottage or ricotta cheese, especially if splitting between smaller pans. Also, you will only get two levels deep if you don’t have a really deep pan. Our contribution to this recipe comes from Ashley’s mother, which is adding a package of spicy Italian sausage to give some additional flavor.&lt;/p&gt;
-</description>
-        <link>/recipes/classic-lasagna.html</link>
-        <guid isPermaLink="true">/recipes/classic-lasagna.html</guid>
-        
-        
-        <category>Italian</category>
         
       </item>
     
