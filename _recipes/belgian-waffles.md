@@ -35,3 +35,5 @@ directions:
 - Cook in waffle iron on medium-high heat for around 5-10 minutes
 
 ---
+
+These came out pretty good. Depending on how well your waffle iron nonstick coating works, you may not need to oil the iron.
